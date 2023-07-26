@@ -1,0 +1,27 @@
+.header{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+    gap: 1.25rem;
+    
+}
+.header .links{
+    display: flex;
+    gap:.75rem;
+    padding: 1rem;
+    margin-left: auto;
+    color: blanchedalmond;
+}
+.header .header h1{
+    display: flex;
+    font-size: xx-large;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+.header .header-link{
+    color: black;
+}

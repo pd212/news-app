@@ -1,0 +1,39 @@
+
+
+.article-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  a, a:visited {
+    color: #007bff;
+  }
+  
+  Link {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  

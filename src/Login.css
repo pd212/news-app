@@ -1,0 +1,72 @@
+/* Styles for the outer container */
+.login {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  /* Styles for the 'Sign Up' heading */
+  .login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the form container */
+  .login .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for the input fields */
+  .login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the submit button */
+  .login button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the submit button on hover */
+  .login button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 480px) {
+    /* Adjust container width for small screens */
+    .login {
+      max-width: 100%;
+    }
+    
+    /* Center align the form elements on small screens */
+    .login .form {
+      align-items: center;
+    }
+    
+    /* Adjust input field width on small screens */
+    .login input {
+      width: 100%;
+    }
+    
+    /* Add some margin to the bottom of the inputs for better spacing */
+    .login input:last-child {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .login p{
+    display: flex;
+    justify-content: center;
+  }
